@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "pure-react-carousel": "^1.28.1",
+    "react-image-magnify": "^2.7.4",
+    "swiper": "^8.2.2"
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.3.0"
+  }
+}

@@ -1,0 +1,27 @@
+.slick-prev, .slick-next{
+        margin-left:30px ;
+        margin-right: 30px;
+        margin-top: -10px;
+        /* background-color: darkgrey; */
+}
+.slick-next{
+    margin-right: 50px;
+}
+
+.slick-prev{
+    z-index: 50;
+    display:flex;
+}
+.slick-prev::before{
+    width: 50px;
+    color: rgba(255, 234, 234, 0.288);
+    position: none;
+}
+.slick-next:hover{
+    font-size: 30px;
+    position: none;
+}
+.slick-next::before{
+    position: none;
+    color: rgba(255, 234, 234, 0.288);
+}
